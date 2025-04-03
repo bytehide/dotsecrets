@@ -3,8 +3,20 @@
 Beyond environment variables: a complete secrets ecosystem for local development and cloud production.
 
 [![npm version](https://img.shields.io/npm/v/dotsecrets.svg)](https://www.npmjs.com/package/dotsecrets)
+[![npm downloads](https://img.shields.io/npm/dm/dotsecrets.svg)](https://www.npmjs.com/package/dotsecrets)
 [![License](https://img.shields.io/npm/l/dotsecrets.svg)](https://github.com/bytehide/dotsecrets/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](https://www.typescriptlang.org/)
+[![GitHub stars](https://img.shields.io/github/stars/bytehide/dotsecrets.svg?style=social)](https://github.com/bytehide/dotsecrets/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/bytehide/dotsecrets.svg?style=social)](https://github.com/bytehide/dotsecrets/fork)
+
+<p align="center">
+  <a href="https://twitter.com/intent/tweet?text=Check%20out%20DotSecrets%20-%20The%20next%20generation%20of%20environment%20variables%20management%20with%20validation%2C%20type%20safety%2C%20and%20cloud%20provider%20integration.&url=https://github.com/bytehide/dotsecrets&hashtags=javascript,nodejs,dotenv,security,programming" target="_blank">
+    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet" />
+  </a>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/bytehide/dotsecrets" target="_blank">
+    <img src="https://img.shields.io/badge/Share-LinkedIn-blue?style=social&logo=linkedin" alt="Share on LinkedIn" />
+  </a>
+</p>
 
 **The next generation of environment variables management.** DotSecrets takes everything you love about dotenv and supercharges it for modern applications. Use local files during development and seamlessly connect to any secrets provider in production – all with zero code changes.
 
@@ -151,6 +163,7 @@ npx dotsecrets migrate
 ```
 
 This command:
+
 - Handles your existing `.env` files
 - Sets up DotSecrets configuration
 - Adds appropriate entries to `.gitignore`
@@ -869,7 +882,7 @@ Define a script in your `package.json`:
 
 Or create a standalone script file in your project root:
 
-- `dotSecretsUpdate.js` 
+- `dotSecretsUpdate.js`
 - `dotSecretsUpdate.ts`
 
 These scripts will be executed whenever your secrets change, allowing you to:
