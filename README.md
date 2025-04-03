@@ -22,11 +22,27 @@ Beyond environment variables: a complete secrets ecosystem for local development
 
 **DotSecrets = dotenv + external providers + validation + type safety + encryption + IDE autocompletion**
 
-![DotSecrets Schema](./docs/images/dotsecrets%20schema.png)
-
-## Key Features
-
-✨ **Drop-in dotenv replacement with superpowers** • 🚀 **Local to cloud with zero code changes** • 🛡️ **Prevent app crashes from missing secrets** • 🔄 **Auto-convert strings to numbers, booleans, JSON** • 💡 **Never mistype a secret name again** • 🔌 **AWS, Azure, ByteHide, HashiCorp — one command** • 🔒 **Push secrets securely to production**
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+      <img src="./docs/images/dotsecrets%20schema.png" alt="DotSecrets Schema" width="60%" style="max-height: 200px; object-fit: contain;">
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <h2>Key Features</h2>
+      <ul>
+        <li>✨ <strong>Drop-in dotenv replacement with superpowers</strong></li>
+        <li>🚀 <strong>Local to cloud with zero code changes</strong></li>
+        <li>🛡️ <strong>Prevent app crashes from missing secrets</strong></li>
+        <li>🔄 <strong>Auto-convert strings to numbers, booleans, JSON</strong></li>
+        <li>💡 <strong>Never mistype a secret name again</strong></li>
+        <li>🔌 <strong>AWS, Azure, ByteHide, HashiCorp — one command</strong></li>
+        <li>🔒 <strong>Push secrets securely to production</strong></li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ## 📋 Table of Contents
 
@@ -287,6 +303,8 @@ Automatically load environment-specific configurations:
 Set your environment with `NODE_ENV` or explicitly in configuration.
 
 ### Push Secrets to Production
+
+![DotSecrets Push](./docs/images/dotsecrets-push.png)
 
 DotSecrets makes it easy to sync your local secrets to production environments without ever exposing them in version control:
 
