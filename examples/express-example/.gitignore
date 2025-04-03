@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.*
+.secrets
+.secrets.*
+*.env
+*.secrets
+keeper.json
+google.json
+bytehide.json

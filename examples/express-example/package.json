@@ -1,0 +1,25 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "Minimal Express.js example using process.env and .env",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "onSecretsUpdate": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "dotenv",
+    "example"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "@dopplerhq/node-sdk": "^1.3.0",
+    "@ibm-cloud/secrets-manager": "^2.0.9",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "node-vault": "^0.10.2"
+  }
+}

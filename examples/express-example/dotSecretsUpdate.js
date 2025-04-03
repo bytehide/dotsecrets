@@ -1,0 +1,1 @@
+console.log(".secrets or .env updated :D")
