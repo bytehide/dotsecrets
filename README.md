@@ -154,6 +154,8 @@ function getLegacyConfig() {
 
 Already using dotenv? DotSecrets makes it easy to upgrade to a more powerful secrets management solution while maintaining compatibility.
 
+![DotSecrets Autocomplete](./docs/images/dotsecrets-vs-dotenv.png)
+
 ### Automatic migration
 
 You can quickly migrate from dotenv to DotSecrets using the migrate command:
@@ -442,6 +444,8 @@ config({ watch: true });
 When changes are detected, secrets are reloaded and optional update scripts are executed.
 
 ### IDE Autocompletion
+
+![DotSecrets Autocomplete](./docs/images/dotsecrets-autocomplete.png)
 
 Generate TypeScript definitions for your secrets:
 
