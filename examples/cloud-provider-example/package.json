@@ -1,0 +1,40 @@
+{
+  "name": "dotsecrets-cloud-provider-example",
+  "version": "1.0.0",
+  "description": "Example demonstrating DotSecrets with cloud secret providers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:aws": "cross-env DOTSECRETS_PLUGIN=aws node index.js",
+    "start:azure": "cross-env DOTSECRETS_PLUGIN=azure node index.js",
+    "start:bytehide": "cross-env DOTSECRETS_PLUGIN=bytehide node index.js",
+    "start:local": "cross-env DOTSECRETS_PLUGIN=env node index.js"
+  },
+  "dependencies": {
+    "dotsecrets": "^0.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "peerDependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.0.0",
+    "@azure/identity": "^4.0.0",
+    "@azure/keyvault-secrets": "^4.0.0",
+    "@bytehide/secrets": "^2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@aws-sdk/client-secrets-manager": {
+      "optional": true
+    },
+    "@azure/identity": {
+      "optional": true
+    },
+    "@azure/keyvault-secrets": {
+      "optional": true
+    },
+    "@bytehide/secrets": {
+      "optional": true
+    }
+  }
+} 

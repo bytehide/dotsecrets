@@ -1,0 +1,13 @@
+{
+  "name": "dotsecrets-validation-example",
+  "version": "1.0.0",
+  "description": "Example demonstrating DotSecrets validation capabilities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotsecrets": "^0.1.0"
+  }
+} 

@@ -1,0 +1,13 @@
+{
+  "name": "dotsecrets-basic-example",
+  "version": "1.0.0",
+  "description": "Basic example of using DotSecrets in a Node.js application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotsecrets": "^0.1.0"
+  }
+} 

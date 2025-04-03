@@ -1,0 +1,3 @@
+# Public configuration (safe to commit to version control)
+PUBLIC_API_VERSION=v1
+PUBLIC_FEATURE_FLAGS={"darkMode": true, "beta": false} 

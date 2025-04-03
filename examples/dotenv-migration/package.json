@@ -1,0 +1,19 @@
+{
+  "name": "dotsecrets-migration-example",
+  "version": "1.0.0",
+  "description": "Example demonstrating migration from dotenv to DotSecrets",
+  "main": "app-before.js",
+  "type": "module",
+  "scripts": {
+    "start:before": "node app-before.js",
+    "start:after-manual": "node app-after-manual.js",
+    "start:after-auto": "node app-after-auto.js",
+    "migrate": "dotsecrets migrate"
+  },
+  "dependencies": {
+    "dotsecrets": "^0.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+} 

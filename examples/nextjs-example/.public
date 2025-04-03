@@ -1,0 +1,5 @@
+# Public configuration (safe to commit to version control)
+PUBLIC_APP_NAME=MyNextApp
+PUBLIC_API_VERSION=v2.1
+PUBLIC_THEME_CONFIG={"primaryColor":"#3f51b5","darkMode":true}
+PUBLIC_FEATURES={"enableChat":true,"betaFeatures":false,"analytics":true} 
