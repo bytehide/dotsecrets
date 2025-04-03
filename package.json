@@ -1,6 +1,6 @@
 {
   "name": "dotsecrets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The next generation of environment variable management. A supercharged dotenv alternative with AWS/Azure/GCP cloud provider integration, validation, type conversion, and IDE autocompletion for Node.js and browser.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
